@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador</title>
+</head>
+<body>
+    <header>
+        <div class="header_logo">
+            <img class="header_logo_img" src="/img/logo_alura.png" alt="logo da alura">
+        </div> 
+    </header>
+    <main>
+        <div class="main_div">
+            <div class="input_div">
+                <textarea id="inputText" class="input_div_text" placeholder="digite seu texto aqui..."></textarea>
+                <div class="input_div_bottom">
+                    <img src="/img/exclamacao.png" alt="sinal de exclamação">
+                    <span>Apenas letras minúsculas e sem acento.</span>
+                    <div class="input_div_buttons">
+                        <button id="buttonCriptografar" class="button_criptografar">Criptografar</button>
+                        <button id="buttonDesriptografar" class="button_descriptografar">Descriptografar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="output_div result_div">
+                <img id="boneco" src="/img/boneco.png" alt="boneco">
+                <textarea id="infoText" class="info_text" placeholder="Nenhuma mensagem encontrada"></textarea>
+                <p id="infoDigite" class="info_digite">Digite um texto que você deseja criptografar ou descriptografar</p>
+                <button id="buttonCopiar" class="button_copiar">Copiar</button>
+            </div>
+        </div>
+
+    </main>
+    <footer class="rodape">
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/laiane-martins-21b600314"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="https://github.com/laianemartins"><ion-icon name="logo-github"></ion-icon></a>
+        </div>
+        <p class="footer_info">Desenvolvido por Laiane Martins</p>
+    </footer>
+    <script src="/app.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
